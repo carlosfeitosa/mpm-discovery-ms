@@ -10,8 +10,8 @@ import org.springframework.boot.test.context.SpringBootTest;
  * @since 2020-08-14
  *
  */
-@SpringBootTest(classes = MpmServiceDiscoveryApplication.class)
-class MpmServiceDiscoveryApplicationTests { // NOPMD by skull on 8/14/20, 11:58 PM
+@SpringBootTest(classes = MpmDiscoveryServiceApplication.class)
+class MpmDiscoveryServiceApplicationTests { // NOPMD by skull on 8/14/20, 11:58 PM
 
 	/**
 	 * Test if context loads.
@@ -20,7 +20,7 @@ class MpmServiceDiscoveryApplicationTests { // NOPMD by skull on 8/14/20, 11:58 
 	public void contextLoads() { // NOPMD by skull on 8/15/20, 12:01 AM
 		// automatic context check
 
-		MpmServiceDiscoveryApplication.main(new String[] {});
+		MpmDiscoveryServiceApplication.main(new String[] {});
 	}
 
 }

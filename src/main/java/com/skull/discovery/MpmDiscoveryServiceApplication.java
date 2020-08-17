@@ -13,7 +13,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  */
 @SpringBootApplication
 @EnableEurekaServer
-public class MpmServiceDiscoveryApplication { // NOPMD by skull on 8/15/20, 12:03 AM
+public class MpmDiscoveryServiceApplication { // NOPMD by skull on 8/15/20, 12:03 AM
 
 	/**
 	 * Main application's method.
@@ -21,7 +21,7 @@ public class MpmServiceDiscoveryApplication { // NOPMD by skull on 8/15/20, 12:0
 	 */
 	public static void main(final String[] args) {
 
-		SpringApplication.run(MpmServiceDiscoveryApplication.class, args);
+		SpringApplication.run(MpmDiscoveryServiceApplication.class, args);
 	}
 
 }
