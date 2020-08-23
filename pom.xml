@@ -12,8 +12,8 @@
 	<groupId>com.skull</groupId>
 	<artifactId>mpm-discovery-ms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mpm-discovery-ms</name>
-	<description>mpm service discovery</description>
+	<name>mpm-srv-discovery</name>
+	<description>mpm service - discovery</description>
 
 	<properties>
 		<java.version>1.8</java.version>
