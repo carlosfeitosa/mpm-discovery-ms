@@ -17,6 +17,7 @@ public class MpmDiscoveryServiceApplication { // NOPMD by skull on 8/15/20, 12:0
 
 	/**
 	 * Main application's method.
+	 * 
 	 * @param args
 	 */
 	public static void main(final String[] args) {
