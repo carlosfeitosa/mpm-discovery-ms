@@ -17,7 +17,7 @@ class MpmDiscoveryServiceApplicationTests { // NOPMD by skull on 8/14/20, 11:58 
 	 * Test if context loads.
 	 */
 	@Test
-	public void contextLoads() { // NOPMD by skull on 8/15/20, 12:01 AM
+	void contextLoads() { // NOPMD by skull on 8/15/20, 12:01 AM
 		// automatic context check
 
 		MpmDiscoveryServiceApplication.main(new String[] {});
